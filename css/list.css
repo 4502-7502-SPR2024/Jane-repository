@@ -17,25 +17,96 @@
 }
 
 h1 {
-	display: flex;
-	justify-content: center; 
+	
 	font-family: "Bebas Neue", sans-serif; 
 	font-size: 45px;
-	color: #5E4793;
+	color: #096343;
 }
 
 body {
-	display: flex;
-	justify-content: center;
-	font-family: "Outfit", sans-serif;
+
+	font-family: "barlow semi condensed", sans-serif;
 	font-size: 20px;
 	color: black;
 }
 
+body a:link {
+	color: #1E4F1E;
+}
+body a:visited {
+	color: #1E4F1E;
+}
+
+body a:hover {
+	color: #AB318B;
+	background-color: white;
+}
+
 h2 {
+	
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 30px;
+	color: #143A82;
+}
+img {
+
+	}
+
+	.lead-image {
 	display: flex;
 	justify-content: center;
-	font-family: "Barlow Semi Condensed", sans-serif;
-	font-size: 30px;
+	max-width: 100px;
+}
+
+.lead-image img {
+	margin: 0 auto;
+	object-fit: contain;
+	max-width: 100px;
+	border: none;
+	border-radius: 15rem;
+}
+
+img {
+	max-width: 50%;
+	padding: 5px;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+}
+
+nav {
+	 
+	font-family: "Outfit", sans-serif;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	justify-content: center;
+	padding: 0.5rem;
+	margin: 0.5rem;
+	background: #F8C4F2;
+	border-radius: 0.1rem;
+	border: 1px solid #82145F;
 	color: black;
+}
+nav a:visited {
+	color: #1E4F1E;
+}
+
+nav a:hover {
+	color: #A2256C;
+	background-color: #AEA2CB;
+}
+
+footer {
+font-family: "Outfit", sans-serif;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	justify-content: center;
+	padding: 2.0rem;
+	margin: 2.0rem;
+	background: #F8C4F2;
+	border-radius: 0.1rem;
+	border: 1px solid #82145F;
+	color: black;	
 }
