@@ -1,5 +1,51 @@
-<h1>
-	.dm-serif display-regular {
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  border: 0;
+}
+
+.skip-link:focus{
+  width: unset;
+  height: unset;
+  position: relative;
+  padding: unset;
+  margin: unset;
+  font-size: 2rem;
+}
+
+.anchor-nav {
+	display: flex;
+	position: sticky;
+	top: 10px;
+	justify-content: space-evenly;
+	width: 80%;
+	background-color: teal;
+	margin: auto;
+	padding: 0.5rem;
+	color: #FFE3AA;
+	text-transform: uppercase;
+	border-radius: 1rem;
+
+}
+
+
+.corben-regular {
+  font-family: "Corben", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.corben-bold {
+  font-family: "Corben", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.dm-serif display-regular {
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-style: normal;
@@ -10,20 +56,96 @@
   font-weight: 400;
   font-style: italic;
 }
-</h1>
 
-<h2>
-	.prata-regular {
-  font-family: "Prata", serif;
+.gotu-regular {
+  font-family: "Gotu", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-</h2>
 
-<body>
-	.architects-daughter-regular {
-  font-family: "Architects Daughter", cursive;
-  font-weight: 400;
-  font-style: normal;
+h1 {
+	font-family: "Corben", serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: #F0CCE3;
+	border-radius: 75%;
+	padding: 10px;
+	color: #593727;
+	text-align: center;
+	text-decoration: none;
+	justify-content: center;
 }
-</body>
+
+h2 {
+	font-family: "DM Serif Display", serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	text-decoration: none;
+	justify-content: center;
+	color: #E854B4;
+}
+
+body {
+	font-family: "Gotu", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	text-decoration: none;
+	justify-content: center;
+	color: #654D3B;
+}
+
+body a:link {
+	color: #E854B4;
+}
+body a:visited {
+	color: #D581BE;
+}
+
+body a:hover {
+	color: #AB318B;
+	background-color: white;
+}
+
+nav {
+	 
+	font-family: "Corben", serif;
+	font-size: 20px;
+	padding: 0.5rem;
+	margin: 0.5rem;
+	background: #E7CEE0;
+	border-radius: 0.1rem;
+	border: 1px solid #422A16;
+	color: #422A16;
+}
+nav a:visited {
+	color: #422A16;
+}
+
+nav a:hover {
+	color: #A2256C;
+	background-color: white;
+}
+
+nav ul {
+       display: flex;
+            position: sticky;
+            align-items: center;
+            justify-content: space-between;
+            top: 0px;
+}
+
+footer {
+font-family: "Corben", serif;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	justify-content: center;
+	padding: 2.0rem;
+	margin: 2.0rem;
+	background: #F8C4F2;
+	border-radius: 0.1rem;
+	border: 1px solid black;
+	color: black;	
+}
