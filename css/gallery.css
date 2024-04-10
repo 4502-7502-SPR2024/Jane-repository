@@ -1,1 +1,105 @@
+.goudy-bookletter 1911-regular {
+  font-family: "Goudy Bookletter 1911", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.paytone-one-regular {
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+body a:link {
+	color: #E854B4;
+}
+body a:visited {
+	color: #E854B4;
+}
+
+body a:hover {
+	color: #AB318B;
+	background-color: white;
+}
+
+.anchor-nav {
+	display: flex;
+	position: sticky;
+	top: 10px;
+	justify-content: space-evenly;
+	width: 80%;
+	margin: auto;
+	padding: 0.5rem;
+	text-transform: uppercase;
+	border-radius: 1rem;
+
+}
+
+nav {
+	 
+	font-family: "Indie Flower", cursive;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	justify-content: center;
+	padding: 0.5rem;
+	margin: 0.5rem;
+	background: #F5F3D2;
+	border-radius: 0.1rem;
+	border: 1px;
+	color: black;	
+}
+
+}
+nav a:visited {
+	color: black;
+}
+
+nav a:hover {
+	color: #A2256C;
+	background-color: white;
+}
+
+nav ul {
+       display: flex;
+            position: sticky;
+            align-items: center;
+            justify-content: space-between;
+            top: 0px;
+}
+
+h1 {
+	font-family: "Paytone One", sans-serif;
+	font-size: 30px;
+text-align: center;
+text-decoration: none;
+justify-content: center;
+color: #E854B4;
+}
+body {
+	font-family: "Goudy Bookletter 1911", serif;
+font-size: 18px;
+text-align: center;
+text-decoration: none;
+justify-content: center;
+color: black;
+
+}
+
+footer {
+font-family: "Indie Flower", cursive;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	justify-content: center;
+	padding: 0.5rem;
+	margin: 0.5rem;
+	background: #F5F3D2;
+	border-radius: 0.1rem;
+	border: 1px;
+	color: black;	
+}
