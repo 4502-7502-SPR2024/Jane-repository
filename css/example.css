@@ -91,6 +91,7 @@ img {
 	margin: 5px;
 	display: flex;
 	justify-content: center;
+}
 .skip-link {
 	position: absolute;
 	left: -9999px;
