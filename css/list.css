@@ -110,3 +110,7 @@ font-family: "Outfit", sans-serif;
 	border: 1px solid #82145F;
 	color: black;	
 }
+.skip-link {
+	position: absolute;
+	left: -9999px;
+}

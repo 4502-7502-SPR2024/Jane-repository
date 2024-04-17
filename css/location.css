@@ -148,3 +148,8 @@ font-family: "Corben", serif;
 	border: 1px solid black;
 	color: black;	
 }
+
+.skip-link {
+	position: absolute;
+	left: -9999px;
+}
