@@ -1,63 +1,24 @@
-h1 {
-	display: flex;
-	justify-content: center; 
-	font-family: "DM Serif Text", serif; 
-	font-size: 45px;
-	color: #5E4793;
 
-} 
 p {
 	display: flex;
 	justify-content: center; 
-	font-family: "Asap Condensed", sans-serif;
+	font-family: "Gotu", sans-serif;
 	color: #1E4F1E;
 	font-size: 20px;
 }
 
-nav {
-	 
-	font-family: "Tenor Sans", sans-serif;
-	font-size: 20px;
-	text-align: center;
-	text-decoration: none;
-	justify-content: center;
-	padding: 0.5rem;
-	margin: 0.5rem;
-	background: #AEA2CB;
-	border-radius: 0.1rem;
-	border: 1px solid #5E4793;
-	color: black;
-}
-nav a:visited {
-	color: #1E4F1E;
+
+body {
+	background-color: #F8F4D8;
 }
 
-nav a:hover {
-	color: #A2256C;
-	background-color: #AEA2CB;
-}
-
-ul {
-	font-family: "Tenor Sans", sans-serif;
-	text-align: center;
-	text-decoration: none;
-	justify-content: center;
-	padding: 2.0rem;
-	margin: 1.0rem;
-	background: #84A584;
-	border-radius: 0.1rem;
-	border: 2px solid #0A490A;
-	color: #1E4F1E;
-	list-style-type: none;
-
-}
 
 h2 {
 	display: flex;
 	justify-content: center; 
 	font-family: "DM Serif Text", serif;
 	font-size: 25px;
-	color: #256A80;
+	color: #1E4F1E;
 }
 
 
@@ -67,6 +28,170 @@ body section .lead-image {
 	margin-left: 1rem;
 	margin-right: 1rem;
 }
+img {
+
+	}
+
+
+.lead-image img {
+	margin: 0 auto;
+	object-fit: contain;
+	max-width: 100px;
+	border: none;
+	border-radius: 15rem;
+}
+
+.skip-link {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	border: 0;
+}
+
+.skip-link:focus {
+	width: unset;
+	height: unset;
+	position: relative;
+	padding: unset;
+	margin: unset;
+	font-size: 2rem;
+}
+
+
+
+body a:link {
+	color: #E854B4;
+}
+body a:visited {
+	color: #E854B4;
+}
+
+body a:hover {
+	color: #AB318B;
+	background-color: white;
+}
+
+.anchor-nav {
+	display: flex;
+	position: sticky;
+	top: 10px;
+	justify-content: space-evenly;
+	width: 80%;
+	margin: auto;
+	padding: 0.5rem;
+	text-transform: uppercase;
+	border-radius: 1rem;
+
+}
+
+
+nav ul {
+       display: flex;
+            position: sticky;
+            align-items: center;
+            justify-content: space-between;
+            top: 0px;
+}
+
+
+body {
+	font-family: "Gotu", serif;
+font-size: 18px;
+text-align: center;
+text-decoration: none;
+justify-content: center;
+color: #1E4F1E;
+
+}
+
+
+/*Photo Gallery css*/
+
+.gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+
+
+.button_holder {
+	display: flex;
+	flex-direction: row;
+}
+
+button_next {  }
+button_previous {  }
+
+.stepper {  }
+
+button {
+	background-color: #D2E693;
+	margin: 1rem;
+	padding: 1rem;
+	min-width: 10rem;
+	font-size: 1.2rem;
+	border-radius: 0.5rem;
+}
+
+.button-start {
+/*	background-color: forestgreen;*/
+}
+
+.gallery-image {
+	max-width: 80%;
+
+}
+
+.gallery-image img {
+	max-width: 300px
+}
+
+.hideThis {
+	display: none;
+}
+
+example-image {
+	display: flex;
+	flex-direction: column;
+	margin: 3rem;
+
+}
+
+.example-image img {
+	display: flex;
+  	max-width:230px;
+  	max-height:95px;
+ 	width: auto;
+  	height: auto;
+  	margin: 1rem;
+}
+
+.listings2 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+body a:link {
+	color: #1E4F1E;
+}
+body a:visited {
+	color: #1E4F1E;
+}
+
+body a:hover {
+	color: #AB318B;
+	background-color: white;
+}
+
 img {
 
 	}
@@ -92,9 +217,162 @@ img {
 	display: flex;
 	justify-content: center;
 }
-.skip-link {
-	position: absolute;
-	left: -9999px;
+
+nav {
+	 
+	font-family: "Corben", sans-serif;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	justify-content: center;
+	padding: 0.5rem;
+	margin: 0.5rem;
+	background: #B4CEB9;
+	border-radius: 0.1rem;
+	border: 1px solid #82145F;
+	color: black;
 }
+nav a:visited {
+	color: #1E4F1E;
+}
+
+nav a:hover {
+	color: #A2256C;
+	background-color: #AEA2CB;
+}
+
+footer {
+font-family: "Corben", serif;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	justify-content: center;
+	padding: 2.0rem;
+	margin: 2.0rem;
+	background: #EAF1DA;
+	border-radius: 0.1rem;
+	border: 1px solid #82145F;
+	color: black;	
+}
+
+.anchor-nav {
+	display: flex;
+	position: sticky;
+	top: 10px;
+	justify-content: space-evenly;
+	width: 80%;
+	margin: auto;
+	padding: 0.5rem;
+	text-transform: uppercase;
+	border-radius: 1rem;
+
+}
+
+
+.corben-regular {
+  font-family: "Corben", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.corben-bold {
+  font-family: "Corben", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.dm-serif display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.gotu-regular {
+  font-family: "Gotu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+	font-family: "Corben", serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: #D2E693;
+	border-radius: 75%;
+	padding: 10px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	justify-content: center;
+}
+
+h2 {
+	font-family: "DM Serif Display", serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	text-decoration: none;
+	justify-content: center;
+	color: #E854B4;
+}
+
+body {
+	font-family: "Gotu", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	text-decoration: none;
+	justify-content: center;
+	color: #654D3B;
+}
+
+body a:link {
+	color: #E854B4;
+}
+body a:visited {
+	color: #D581BE;
+}
+
+body a:hover {
+	color: #AB318B;
+	background-color: white;
+}
+
+nav {
+	 
+	font-family: "Corben", serif;
+	font-size: 20px;
+	padding: 0.5rem;
+	margin: 0.5rem;
+	background: #B4CEB9;
+	border-radius: 0.1rem;
+	border: 1px solid #422A16;
+	color: black;
+
+}
+nav a:visited {
+	color: #422A16;
+}
+
+nav a:hover {
+	color: #A2256C;
+	background-color: white;
+}
+
+nav ul {
+       display: flex;
+            position: sticky;
+            align-items: center;
+            justify-content: space-between;
+            top: 0px;
+}
+
+
 
 
